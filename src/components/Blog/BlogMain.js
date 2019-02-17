@@ -18,7 +18,7 @@ class BlogMain extends React.Component {
   };
 
   componentDidMount() {
-    fetchData(`/api/blog/articles/${this.props.match.params.blogId}`).then((res) =>
+    fetchData(`/articles/${this.props.match.params.blogId}`).then((res) =>
       this.setState({ blogData: res }),
     );
   }

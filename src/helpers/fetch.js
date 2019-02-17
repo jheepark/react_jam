@@ -1,6 +1,6 @@
 import fetch from 'isomorphic-fetch';
 
-const baseUrl = 'http://scheding.com.au/api/blog';
+const baseUrl = 'http://www.scheding.com.au/api/blog';
 const defaultError =
   'We are experiencing technical issues right now. Please try again soon.';
 
