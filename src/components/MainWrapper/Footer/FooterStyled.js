@@ -49,7 +49,6 @@ export const CtaStyled = styled.div`
     color: white;
     font-family: 'Noto Sans', sans-serif;
     letter-spacing: 1.2px;
-    padding: 16px 36px;
     border-radius: 25px;
     width: 165px;
     height: 50px;
