@@ -15,10 +15,10 @@ return (
         key={index}
         tag={blog.tags}
         headerImg={blog.image}
-        img={blog.user === 'Sam Scheding' ? weirdo : jheezy}
+        img={blog.user === 1 ? weirdo : jheezy}
         title={blog.title}
         content={blog.subtitle}
-        author={blog.user}
+        author={blog.author}
         id={blog.id}
         date={blog.date}
       />

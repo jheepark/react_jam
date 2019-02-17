@@ -27,6 +27,14 @@ class BlogMain extends React.Component {
     const {
       blogData
     } = this.state;
+
+    const createMarkup = (content) => {
+      return {__html: content};
+    }
+
+    const MyComponent = (content) => {
+      return <div dangerouslySetInnerHTML={createMarkup(content)} />;
+    }
     return (
       <Fragment>
         {blogData && (
@@ -43,7 +51,7 @@ class BlogMain extends React.Component {
             </TopWrapperStyled>
             <HeroStyled hero={blogData.image}/>
             <ContentStyled>
-              <p>{blogData.content}</p>
+              {MyComponent(blogData.content)}
             </ContentStyled>
           </BlogMainStyled>
         )}
