@@ -42,9 +42,9 @@ class BlogMain extends React.Component {
             <TopWrapperStyled>
               <TitleStyled>{blogData.title}</TitleStyled>
               <DetailsSectionStyled>
-                <ProfileImageStyled img={blogData.user === 'Jae-Hee Park' ? jheezy : sambo}/>
+                <ProfileImageStyled img={blogData.author === 'Sam Scheding' ? sambo : jheezy}/>
                 <div>
-                  <h1>{blogData.user}</h1>
+                  <h1>{blogData.author}</h1>
                   <p>{blogData.date}</p>
                 </div>
               </DetailsSectionStyled>
