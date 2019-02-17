@@ -1,4 +1,4 @@
-## 🍆 JAM BLOG: CLIENT SIDE🍆
+## 🍆 JAM BLOG: CLIENT SIDE 🍆
 
 🌈 Get started with:
 
