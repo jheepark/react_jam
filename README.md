@@ -4,3 +4,5 @@
 
 ### `yarn install`
 ### `yarn start`
+
+built by Jae-Hee Park and Sam Scheding
