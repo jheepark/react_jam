@@ -8,9 +8,32 @@ export const ListStyled = styled.li`
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-    :hover, :active {
-      color: #00a2ff;
-    }
+    position: relative
+
+    &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background: #00a2ff;
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .25s linear;
+  }
+
+  :hover {
+    color: #00a2ff;
+  }
+
+  &:hover:before,
+  &:focus:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
   }
 `;
 
