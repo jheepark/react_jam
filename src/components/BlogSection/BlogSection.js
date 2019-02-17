@@ -12,7 +12,7 @@ return (
         key={index}
         tag={blog.tags}
         headerImg={blog.image}
-        img={blog.user === 'Sam Scheding' ? weirdo : jheezy}
+        img={blog.author === 'Sam Scheding' ? weirdo : jheezy}
         title={blog.title}
         content={blog.subtitle}
         author={blog.author}
