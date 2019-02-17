@@ -10,7 +10,7 @@ class Homepage extends React.Component {
   };
 
   componentDidMount() {
-    fetchData(`/api/blog/articles`).then((res) =>
+    fetchData(`/articles`).then((res) =>
       this.setState({ blogData: res }),
     );
   }

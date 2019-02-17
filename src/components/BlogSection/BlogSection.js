@@ -8,7 +8,6 @@ import jheezy from '../../assets/jhee.jpg';
 import { BlogSectionStyled } from './BlogSectionStyled';
 
 const BlogSection = ({ blogs }) => {
-  console.log(blogs)
 return (
     <BlogSectionStyled>
     {blogs && blogs.map((blog, index) => (
