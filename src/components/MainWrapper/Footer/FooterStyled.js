@@ -16,6 +16,16 @@ export const InstagramStyled = styled.div`
   }
 `;
 
+export const AnchorStyled = styled.a`
+  transition: all .1s ease-in-out;
+
+  :hover {
+    transform: scale(1.10);
+    box-shadow: 2px 2px 30px 0 rgba(63,116,181,0.96);
+    border-radius: 50%;
+  }
+`;
+
 export const LinkedInStyled = styled.div`
   background-image: url(${linkedin});
   background-size: contain;

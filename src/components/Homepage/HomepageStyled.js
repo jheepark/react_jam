@@ -14,7 +14,7 @@ export const TitleStyled = styled.h1`
 `;
 
 export const ContentStyled = styled.div`
-  width: 50%;
+  width: 100%;
   margin: 40px 0 0;
   display: inline-block;
 
@@ -24,12 +24,25 @@ export const ContentStyled = styled.div`
     font-family: 'Noto Sans', sans-serif;
     color: black;
   }
+
+  @media (min-width: 426px) {
+    width: 75%;
+  }
+
+  @media (min-width: 635px) {
+    width: 50%;
+  }
 `;
 
 export const PageStyled = styled.div`
   background-image: url(${background});
   background-size: cover;
   padding-top: 40px;
+  background-position: 0;
+
+  @media (min-width: 321px) {
+    background-position: 0;
+  }
 `;
 
 

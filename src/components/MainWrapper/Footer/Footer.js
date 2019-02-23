@@ -1,6 +1,13 @@
 import React, {Fragment} from "react";
 import Wave from '../../Wave/Wave.js';
-import { InstagramStyled, LinkedInStyled, TwitterStyled, FooterStyled, CtaStyled } from './FooterStyled';
+import {
+  InstagramStyled,
+  LinkedInStyled,
+  TwitterStyled,
+  FooterStyled,
+  CtaStyled,
+  AnchorStyled
+} from './FooterStyled';
 const Footer = () =>
   (
     <Fragment>
@@ -9,9 +16,15 @@ const Footer = () =>
         <button>Let's talk!</button>
       </CtaStyled>
       <FooterStyled>
-        <InstagramStyled />
-        <LinkedInStyled />
-        <TwitterStyled />
+        <AnchorStyled href="#">
+          <InstagramStyled />
+        </AnchorStyled>
+        <AnchorStyled href="#">
+          <LinkedInStyled />
+        </AnchorStyled>
+        <AnchorStyled href="#">
+          <TwitterStyled />
+        </AnchorStyled>
       </FooterStyled>
     </Fragment>
   );
