@@ -13,12 +13,12 @@ export const TopWrapperStyled = styled.div`
 `;
 
 export const TitleStyled = styled.h1`
+  color: black;
+  display: inline-block;
   font-family: 'Fjalla One', sans-serif;
   font-size: 2rem;
-  text-align: left;
-  color: black;
   margin: 0;
-  display: inline-block;
+  text-align: left;
   span {
     color: #00d2ff;
   }

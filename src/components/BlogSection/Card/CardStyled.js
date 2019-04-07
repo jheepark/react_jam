@@ -99,6 +99,8 @@ export const ContentStyled = styled.div`
   }
   @media(min-width: 850px) {
     padding: 20px;
+    height: 80px;
+    
     h1 {
       margin-top: 20px
     }

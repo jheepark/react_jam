@@ -3,6 +3,7 @@ import Wave from '../Wave/Wave.js'
 import { TitleStyled, PageStyled, ContentStyled, ContainerStyled } from './HomepageStyled';
 import BlogSection from '../BlogSection/BlogSection';
 import fetchData from '../../helpers/fetch';
+import { ThemeProvider } from 'styled-components';
 
 class Homepage extends React.Component {
   state = {
@@ -16,6 +17,9 @@ class Homepage extends React.Component {
   }
 
   render() {
+    const theme = {
+      color: "black"
+    }
     return (
       <Fragment>
         <PageStyled>

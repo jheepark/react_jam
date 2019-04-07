@@ -11,10 +11,10 @@ const Nav = () =>
           <a href="/">Blog</a>
         </ListStyled>
         <ListStyled>
-          <a href="/api">API</a>
+          <a href="/about">About</a>
         </ListStyled>
         <ListStyled>
-          <a href="api/docs/">API Docs</a>
+          <a href="/projects">Projects</a>
         </ListStyled>
       </UlStyled>
     </ContainerStyled>
